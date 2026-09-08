@@ -7,10 +7,7 @@ const Card = (props) => {
       <div>
         <div className="top">
           <div className="image-container">
-            <img
-              src="https://i.pinimg.com/236x/89/61/31/8961313816abd158bb3beae2edf64f63.jpg"
-              alt="amazon"
-            />
+            <img src={props.logo} alt={props.company} />
           </div>
           <button>
             Save <Bookmark size={14} />
@@ -18,19 +15,19 @@ const Card = (props) => {
         </div>
         <div className="center">
           <h3>
-            Amazon <span>5 days ago</span>
+            {props.company} <span>{props.datePosted}</span>
           </h3>
-          <h2>Senior UI/UX Designer</h2>
+          <h2>{props.post}</h2>
           <div className="tag">
-            <h5>Part Time</h5>
-            <h5>Senior Level</h5>
+            <h5>{props.tag1}</h5>
+            <h5>{props.tag2}</h5>
           </div>
         </div>
       </div>
       <div className="bottom">
         <div>
-          <h3>$120/hr</h3>
-          <p>Mumbai, India</p>
+          <h4>${props.payPerHour}/hours</h4>
+          <p>{props.location}</p>
         </div>
         <button> Apply Now</button>
       </div>
@@ -38,4 +35,4 @@ const Card = (props) => {
   );
 };
 
-export default Card
+export default Card;
