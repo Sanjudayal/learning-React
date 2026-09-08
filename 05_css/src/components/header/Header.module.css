@@ -1,0 +1,16 @@
+.btn {
+  padding: 6px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.header {
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 5px;
+}
