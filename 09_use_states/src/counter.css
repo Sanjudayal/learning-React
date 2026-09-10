@@ -6,16 +6,22 @@
 
 html,
 body {
-  height: 100vh;
-  /* width: 100%; */
+  min-height: 100vh;
+  width: 100%;
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 30px;
+
   /* padding-top: 20px; */
+}
+
+.counterBody {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin-left: 30px; */
 }
 
 button {

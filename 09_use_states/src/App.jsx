@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./Counter";
+import UseStateOnArrayObject from "./UseStateOnArrayObject";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <UseStateOnArrayObject />
     </div>
   );
 };
