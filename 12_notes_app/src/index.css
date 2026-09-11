@@ -3,3 +3,7 @@
 #notesContainer::-webkit-scrollbar {
   display: none;
 }
+
+#noteText::-webkit-scrollbar {
+  display: none;
+}
