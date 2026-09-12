@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 
 const App = () => {
+  // const savedNotes = JSON.parse(localStorage.getItem("notesData"));
   const [heading, setHeading] = useState("");
   const [note, setNote] = useState("");
 
-  const [noteArray, setNoteArray] = useState([]);
+  const [noteArray, setNoteArray] = useState(() => {
+    const savedNotes = localStorage.getItem("notesData");
+    return savedNotes ? JSON.parse(savedNotes) : [];
+  });
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -12,11 +16,9 @@ const App = () => {
       alert("please first fill all the text areas then click to add note");
     } else {
       const newNoteArray = [...noteArray];
-
       newNoteArray.push({ heading, note });
-
       setNoteArray(newNoteArray);
-
+      localStorage.setItem("notesData", JSON.stringify(newNoteArray));
       setHeading("");
       setNote("");
     }
@@ -26,6 +28,7 @@ const App = () => {
     const newNoteArray = [...noteArray];
     newNoteArray.splice(idx, 1);
     setNoteArray(newNoteArray);
+    localStorage.setItem("notesData", JSON.stringify(newNoteArray));
   };
 
   return (
@@ -73,12 +76,12 @@ const App = () => {
                 key={idx}
                 className="relative flex flex-col gap-3 text-black px-6 pt-6 pb-4 h-52 min-w-40 lg:max-h-52 lg:max-w-40 rounded-2xl bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] bg-cover"
               >
-                <h3 className="leading-tight font-bold text-xl">
+                <h3 className="leading-tight font-semibold text-lg">
                   {el.heading}
                 </h3>
                 <p
                   id="noteText"
-                  className="h-[60%] overflow-auto leading-tight font-medium text-gray-500"
+                  className="h-[60%] overflow-auto leading-tight font-medium text-gray-500 text-sm"
                 >
                   {el.note}
                 </p>
