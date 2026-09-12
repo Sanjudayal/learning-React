@@ -7,3 +7,7 @@
 #noteText::-webkit-scrollbar {
   display: none;
 }
+
+#noteHeading::-webkit-scrollbar {
+  display: none;
+}

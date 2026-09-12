@@ -76,7 +76,10 @@ const App = () => {
                 key={idx}
                 className="relative flex flex-col gap-3 text-black px-6 pt-6 pb-4 h-52 min-w-40 lg:max-h-52 lg:max-w-40 rounded-2xl bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] bg-cover"
               >
-                <h3 className="leading-tight font-semibold text-lg">
+                <h3
+                  id="noteHeading"
+                  className="py-2 overflow-auto leading-tight font-semibold text-lg"
+                >
                   {el.heading}
                 </h3>
                 <p
