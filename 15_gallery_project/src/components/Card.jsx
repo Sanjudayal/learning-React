@@ -13,7 +13,9 @@ const Card = (props) => {
             alt="image"
           />
         </div>
-        <h3 className="font-bold text-lg">{props.el.author}</h3>
+        <h3 className="font-semibold text-lg text-center pt-2">
+          {props.el.author}
+        </h3>
       </a>
     </div>
   );
