@@ -46,3 +46,21 @@ body {
   border: none;
   border-radius: 5px;
 }
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.themeChanger {
+  padding: 12px 16px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
