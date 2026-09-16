@@ -63,3 +63,18 @@ div a {
   justify-content: center;
   gap: 30px;
 }
+
+button {
+  padding: 14px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: #115dc0;
+  font-size: 15px;
+}
+.nav2 {
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+}

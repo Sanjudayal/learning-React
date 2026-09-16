@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/Home";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
@@ -11,11 +11,13 @@ import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Courses from "./pages/Courses";
 import CourseDetails from "./pages/CourseDetails";
+import Navbar2 from "./components/Navbar2";
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Navbar2 />
 
       <Routes>
         <Route path="/" element={<Home />} />
