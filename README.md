@@ -154,11 +154,10 @@ I am following a **learn → practice → build → review → improve** approac
 **Projects:**
 
 - Gallery App
-- Weather App *(planned)*
-- GitHub User Search *(planned)*
+- Weather App _(planned)_
+- GitHub User Search _(planned)_
 
 ---
-
 
 ## 9. 🎨 Styling in React
 
@@ -367,6 +366,8 @@ After building a strong React foundation, I plan to explore:
 
 ## 1. 💼 Job Opening Cards
 
+![Job opening cards](/previews/cards%20project.png)
+
 A small React project created to practice **reusable components and props**.
 
 ### Concepts Practiced
@@ -379,11 +380,15 @@ A small React project created to practice **reusable components and props**.
 
 ### Live Demo
 
+⚠️ **Note:** The live demo is temporarily unavailable. We are working to get it back online soon!
+
 https://cards-project-using-props-react.netlify.app/
 
 ---
 
 ## 2. 🎨 UI Practice Project
+
+![UI Practice Project](/previews/ui.png)
 
 A React + Tailwind CSS project created to practice component architecture and data flow.
 
@@ -404,6 +409,8 @@ https://ui-practice-project-made-with-react.netlify.app/
 
 ## 3. 🔢 Counter App
 
+![Job opening cards](/previews/counter%20App.png)
+
 A small project created to understand the basics of React state management.
 
 ### Concepts Practiced
@@ -423,6 +430,8 @@ https://counter-app-practicing-usestate.netlify.app/
 
 ## 4. 📝 Notes App
 
+![Job opening cards](/previews/note%20app.png)
+
 A small application created to practice forms and managing arrays with React state.
 
 ### Concepts Practiced
@@ -441,6 +450,8 @@ https://note-app-by-sanjudayal.netlify.app/
 ---
 
 ## 5. 🖼️ Gallery App
+
+![Job opening cards](/previews/gallery%20project.png)
 
 A React application created to practice API integration and `useEffect`.
 
@@ -464,34 +475,34 @@ https://gallery-app-by-sanju.netlify.app/
 
 # 📈 Learning Progress
 
-| Area | Status |
-|---|---|
-| React Introduction | ✅ Completed |
-| React Setup | ✅ Completed |
-| Components | ✅ Completed |
-| JSX | ✅ Completed |
-| Props | ✅ Completed |
-| Props Drilling | ✅ Practiced |
-| Reusable Components | ✅ Practiced |
-| Component Architecture | ✅ Practiced |
-| `useState` | ✅ Completed |
+| Area                      | Status       |
+| ------------------------- | ------------ |
+| React Introduction        | ✅ Completed |
+| React Setup               | ✅ Completed |
+| Components                | ✅ Completed |
+| JSX                       | ✅ Completed |
+| Props                     | ✅ Completed |
+| Props Drilling            | ✅ Practiced |
+| Reusable Components       | ✅ Practiced |
+| Component Architecture    | ✅ Practiced |
+| `useState`                | ✅ Completed |
 | Forms & Controlled Inputs | ✅ Completed |
-| `useEffect` | ✅ Completed |
-| API Integration | ✅ Practiced |
-| Pagination | ✅ Practiced |
-| Tailwind with React | ✅ Practiced |
-| React Router | ✅ Practiced  |
-| Context API | ✅ Practiced |
-| `useReducer` | 🔜 Planned |
-| Custom Hooks | 🔜 Planned |
-| Redux Toolkit | 🔜 Planned |
-| React Query | 🔜 Planned |
-| Performance Optimization | 🔜 Planned |
-| Authentication | 🔜 Planned |
-| Testing | 🔜 Planned |
-| CI/CD | 🔜 Planned |
-| TypeScript | 🔜 Planned |
-| Next.js | 🔜 Planned |
+| `useEffect`               | ✅ Completed |
+| API Integration           | ✅ Practiced |
+| Pagination                | ✅ Practiced |
+| Tailwind with React       | ✅ Practiced |
+| React Router              | ✅ Practiced |
+| Context API               | ✅ Practiced |
+| `useReducer`              | 🔜 Planned   |
+| Custom Hooks              | 🔜 Planned   |
+| Redux Toolkit             | 🔜 Planned   |
+| React Query               | 🔜 Planned   |
+| Performance Optimization  | 🔜 Planned   |
+| Authentication            | 🔜 Planned   |
+| Testing                   | 🔜 Planned   |
+| CI/CD                     | 🔜 Planned   |
+| TypeScript                | 🔜 Planned   |
+| Next.js                   | 🔜 Planned   |
 
 ---
 
